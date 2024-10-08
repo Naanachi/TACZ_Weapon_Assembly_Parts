@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "Layer0": "taczweaponassemblyparts:item/framemedium"
+  }
+}
