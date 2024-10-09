@@ -13,6 +13,7 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.rabbichi.TACZWeaponAssemblyParts.Items.ModCreativeModTabs;
 import net.rabbichi.TACZWeaponAssemblyParts.Items.Moditems;
 import org.slf4j.Logger;
 
@@ -20,11 +21,13 @@ import org.slf4j.Logger;
 @Mod(TACZWeaponAssemblyParts.MOD_ID)
 public class TACZWeaponAssemblyParts {
     public static final String MOD_ID = "taczweaponassemblyparts";
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
 
     public TACZWeaponAssemblyParts()     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeModTabs.register(modEventBus);
 
         Moditems.register(modEventBus);
 

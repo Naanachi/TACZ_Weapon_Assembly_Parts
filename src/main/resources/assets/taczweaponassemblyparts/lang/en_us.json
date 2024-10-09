@@ -6,4 +6,7 @@
   "item.taczweaponassemblyparts.framemedium": "Medium Frame",
   "item.taczweaponassemblyparts.framelarge": "Large Frame",
   "item.taczweaponassemblyparts.stock": "Stock",
-  "item.taczweaponassemblyparts.barrel": "Barrel"}
+  "item.taczweaponassemblyparts.barrel": "Barrel",
+
+  "creativetab.tacz_ap_tab": "TACZ: Weapon Assembly Parts"
+}

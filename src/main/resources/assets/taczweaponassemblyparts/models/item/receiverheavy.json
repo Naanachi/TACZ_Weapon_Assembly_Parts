@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "Layer0": "taczweaponassemblyparts:item/receiverheavy"
+    "layer0": "taczweaponassemblyparts:item/receiverheavy"
   }
 }

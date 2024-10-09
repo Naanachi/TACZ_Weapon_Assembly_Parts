@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:iron_ingot"
+    },
+    "X": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern" : [
+    "AAX",
+    "  A",
+    "   "
+  ],
+  "result": {
+    "item": "taczweaponassemblyparts:barrel"
+  }
+}
